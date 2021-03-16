@@ -6,9 +6,9 @@ Also features:
 * LEDs for each toggle switch to indicate on / off position
 * Switchable low, middle and high octaves
 
-Implementation is extremely simple. Arduino just reads the state of the switches, compares it to its own internal state state and sends out noteOn and noteOff MIDI messages. There are some more checks for lower / higher octaves, but that's about it.
+Implementation is extremely simple. Arduino just reads the state of the switches, compares it to its own internal state and sends out noteOn and noteOff MIDI messages. There are some more checks for lower / higher octaves, but that's about it.
 
-[MIDI drone controller](controller.png)
+![MIDI drone controller](controller.png)
 
 ## Wiring
 
@@ -30,7 +30,7 @@ Part list:
 
 Wiring for two switches and the MIDI connection:
 
-[wiring](wiring.png)
+![wiring](wiring.png)
 
 ## Possible future improvements
 
